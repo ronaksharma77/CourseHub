@@ -1,8 +1,8 @@
+
+
 # CourseHub
 
-<img src="https://i.ibb.co/Sxfyf3v/CourseHub-logo.png" alt="CourseHub Logo" width="200"/>
-
-CourseHub is a comprehensive online platform where students can purchase and filter courses, while instructors can create, edit, and manage their courses. This project leverages the MERN stack and integrates Razorpay for seamless payment processing.
+CourseHub is a comprehensive online ed-tech platform where students can purchase and filter courses, while instructors can create, edit, and manage their courses. This project leverages the MERN stack and integrates Razorpay for seamless payment processing.
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@ CourseHub is a comprehensive online platform where students can purchase and fil
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Razorpay Integration](#razorpay-integration)
-- [Contributing](#contributing)
 
 ## Features
 
@@ -30,13 +29,13 @@ CourseHub is a comprehensive online platform where students can purchase and fil
 - **Database:** MongoDB
 - **Payment Gateway:** Razorpay
 - **Authentication:** JWT (JSON Web Tokens)
-- **Others:** Axios, Mongoose
+- **Others:** Mongoose
 
 ## Setup and Installation
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/ronaksharma77/CourseHub.git
+    git clone https://github.com/your-username/CourseHub.git
     cd CourseHub
     ```
 
@@ -54,7 +53,7 @@ CourseHub is a comprehensive online platform where students can purchase and fil
 3. **Set up environment variables:**
     Create a `.env` file in the backend directory and add the following:
     ```env
-    PORT=5000
+    PORT=4000
     MONGO_URI=your_mongo_db_connection_string
     JWT_SECRET=your_jwt_secret
     RAZORPAY_KEY_ID=your_razorpay_key_id
@@ -72,12 +71,12 @@ CourseHub is a comprehensive online platform where students can purchase and fil
     npm start
     ```
 
-    The frontend will be served on `http://localhost:3000` and the backend on `http://localhost:5000`.
+    The frontend will be served on `http://localhost:3000` and the backend on `http://localhost:4000`.
 
 ## Usage
 
 - **Students:**
-  - Register and log in to your account.
+  - Signu and log in to your account.
   - Browse and filter courses based on your preferences.
   - Purchase courses using Razorpay and access the course content.
 
@@ -85,28 +84,34 @@ CourseHub is a comprehensive online platform where students can purchase and fil
   - Register and log in to your account.
   - Create new courses and manage existing ones.
   - Edit course details, add content, and track student enrollments.
+ 
+- **Admin:**
+  - Creatings categories for courses. 
 
 ## Project Structure
+
+```
 CourseHub/
 │
-├── backend/ # Backend code
-│ ├── controllers/ # Controllers for handling requests
-│ ├── models/ # Mongoose models
-│ ├── routes/ # Express routes
-│ ├── middleware/ # Custom middleware
-│ └── server.js # Entry point for the backend
+├── backend/              # Backend code
+│   ├── controllers/      # Controllers for handling requests
+│   ├── models/           # Mongoose models
+│   ├── routes/           # Express routes
+│   ├── middleware/       # Custom middleware
+│   └── server.js         # Entry point for the backend
 │
-├── frontend/ # Frontend code
-│ ├── public/ # Public assets
-│ ├── src/
-│ │ ├── components/ # React components
-│ │ ├── pages/ # Page components
-│ │ ├── redux/ # Redux setup
-│ │ ├── utils/ # Utility functions
-│ │ └── App.js # Main App component
-│ └── index.js # Entry point for the frontend
+├── frontend/             # Frontend code
+│   ├── public/           # Public assets
+│   ├── src/
+│   │   ├── components/   # React components
+│   │   ├── pages/        # Page components
+│   │   ├── redux/        # Redux setup
+│   │   ├── utils/        # Utility functions
+│   │   └── App.js        # Main App component
+│   └── index.js          # Entry point for the frontend
 │
-└── README.md # This README file
+└── README.md             # This README file
+```
 
 ## Razorpay Integration
 
@@ -123,6 +128,4 @@ For any inquiries or feedback, please reach out to:
 
 - **Name:** Ronak Sharma
 - **Email:** ronaksharma.rk77@gmail.com
-- **GitHub:** [ronaksharma77](https://github.com/ronaksharma77)
-
----
+- **GitHub:** [ronakshama77](https://github.com/ronaksharma77)
