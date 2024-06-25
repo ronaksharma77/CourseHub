@@ -2,9 +2,9 @@
 
 # CourseHub
 
-![CourseHub Logo](https://ibb.co/Sxfyf3v)
+![CourseHub Logo](https://i.ibb.co/Sxfyf3v/CourseHub-logo.png)
 
-CourseHub is a comprehensive online ed-tech platform where students can purchase and filter courses, while instructors can create, edit, and manage their courses. This project leverages the MERN stack and integrates Razorpay for seamless payment processing.
+CourseHub is a comprehensive online platform where students can purchase and filter courses, while instructors can create, edit, and manage their courses. This project leverages the MERN stack and integrates Razorpay for seamless payment processing.
 
 ## Table of Contents
 
@@ -14,6 +14,7 @@ CourseHub is a comprehensive online ed-tech platform where students can purchase
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Razorpay Integration](#razorpay-integration)
+- [Contact](#contact)
 
 ## Features
 
@@ -31,13 +32,13 @@ CourseHub is a comprehensive online ed-tech platform where students can purchase
 - **Database:** MongoDB
 - **Payment Gateway:** Razorpay
 - **Authentication:** JWT (JSON Web Tokens)
-- **Others:** Mongoose
+- **Others:** Axios, Mongoose
 
 ## Setup and Installation
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/CourseHub.git
+    git clone https://github.com/ronaksharma77/CourseHub.git
     cd CourseHub
     ```
 
@@ -73,7 +74,7 @@ CourseHub is a comprehensive online ed-tech platform where students can purchase
     npm start
     ```
 
-    The frontend will be served on `http://localhost:3000` and the backend on `http://localhost:4000`.
+    The frontend will be served on `http://localhost:3000` and the backend on `http://localhost:5000`.
 
 ## Usage
 
@@ -121,15 +122,10 @@ Razorpay is integrated to handle secure payment transactions. Ensure you have yo
 - **Processing Payment:**
   The frontend uses Razorpay's checkout script to handle the payment process.
 
-
-
-
 ## Contact
 
 For any inquiries or feedback, please reach out to:
 
-- **Name:** Your Name
-- **Email:** your-email@example.com
-- **GitHub:** [your-username](https://github.com/your-username)
-
----
+- **Name:** Ronak Sharma
+- **Email:** ronaksharma.rk77@gmail.com
+- **GitHub:** [ronaksharma77](https://github.com/ronaksharma77)
