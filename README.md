@@ -1,8 +1,6 @@
-
-
 # CourseHub
 
-![CourseHub Logo](https://i.ibb.co/Sxfyf3v/CourseHub-logo.png)
+<img src="https://i.ibb.co/Sxfyf3v/CourseHub-logo.png" alt="CourseHub Logo" width="200"/>
 
 CourseHub is a comprehensive online platform where students can purchase and filter courses, while instructors can create, edit, and manage their courses. This project leverages the MERN stack and integrates Razorpay for seamless payment processing.
 
@@ -14,7 +12,7 @@ CourseHub is a comprehensive online platform where students can purchase and fil
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Razorpay Integration](#razorpay-integration)
-- [Contact](#contact)
+- [Contributing](#contributing)
 
 ## Features
 
@@ -89,29 +87,26 @@ CourseHub is a comprehensive online platform where students can purchase and fil
   - Edit course details, add content, and track student enrollments.
 
 ## Project Structure
-
-```
 CourseHub/
 │
-├── backend/              # Backend code
-│   ├── controllers/      # Controllers for handling requests
-│   ├── models/           # Mongoose models
-│   ├── routes/           # Express routes
-│   ├── middleware/       # Custom middleware
-│   └── server.js         # Entry point for the backend
+├── backend/ # Backend code
+│ ├── controllers/ # Controllers for handling requests
+│ ├── models/ # Mongoose models
+│ ├── routes/ # Express routes
+│ ├── middleware/ # Custom middleware
+│ └── server.js # Entry point for the backend
 │
-├── frontend/             # Frontend code
-│   ├── public/           # Public assets
-│   ├── src/
-│   │   ├── components/   # React components
-│   │   ├── pages/        # Page components
-│   │   ├── redux/        # Redux setup
-│   │   ├── utils/        # Utility functions
-│   │   └── App.js        # Main App component
-│   └── index.js          # Entry point for the frontend
+├── frontend/ # Frontend code
+│ ├── public/ # Public assets
+│ ├── src/
+│ │ ├── components/ # React components
+│ │ ├── pages/ # Page components
+│ │ ├── redux/ # Redux setup
+│ │ ├── utils/ # Utility functions
+│ │ └── App.js # Main App component
+│ └── index.js # Entry point for the frontend
 │
-└── README.md             # This README file
-```
+└── README.md # This README file
 
 ## Razorpay Integration
 
@@ -129,3 +124,5 @@ For any inquiries or feedback, please reach out to:
 - **Name:** Ronak Sharma
 - **Email:** ronaksharma.rk77@gmail.com
 - **GitHub:** [ronaksharma77](https://github.com/ronaksharma77)
+
+---
