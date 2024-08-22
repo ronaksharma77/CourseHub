@@ -67,8 +67,12 @@ exports.paymentSuccessEmail = (name, amount, orderId, paymentId) => {
     
     <body>
         <div class="container">
-            <a href="https://CourseHub-edtech-project.vercel.app"><img class="logo" src="https://i.ibb.co/6ZXwXWs/Course-Hub-logo.png"
-                    alt="CourseHub Logo"></a>
+            <a href="https://CourseHub-edtech-project.vercel.app"><img 
+              src="https://i.ibb.co/6ZXwXWs/Course-Hub-logo.png" 
+              alt="logo" 
+              style="width: 150px; height: auto; border: 2px solid black; border-radius:16px;" 
+              border="0"
+            ></a>
             <div class="message">Course Payment Confirmation</div>
             <div class="body">
                 <p>Dear ${name},</p>

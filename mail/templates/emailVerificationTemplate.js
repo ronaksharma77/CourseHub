@@ -66,8 +66,12 @@ const otpTemplate = (otp) => {
 	
 	<body>
 		<div class="container">
-			<a href="https://CourseHub-edtech-project.vercel.app"><img class="logo"
-					src="https://i.ibb.co/6ZXwXWs/Course-Hub-logo.png" alt="CourseHub Logo"></a>
+			<a href="https://CourseHub-edtech-project.vercel.app"><img 
+              src="https://i.ibb.co/6ZXwXWs/Course-Hub-logo.png" 
+              alt="logo" 
+              style="width: 150px; height: auto; border: 2px solid black; border-radius:16px;" 
+              border="0"
+            ></a>
 			<div class="message">OTP Verification Email</div>
 			<div class="body">
 				<p>Dear User,</p>
