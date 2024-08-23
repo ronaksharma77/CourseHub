@@ -64,7 +64,7 @@ exports.capturePayment = async (req, res) => {
       data: paymentResponse,
     })
   } catch (error) {
-    console.log("Order initaite nhi ho rha");
+    console.log("Order initiate nhi ho rha");
     res
       .status(500)
       .json({ success: false, message: "Could not initiate order." })
@@ -192,6 +192,7 @@ const enrollStudents = async (courses, userId, res) => {
 
       console.log("Email sent successfully: ", emailResponse.response)
     } catch (error) {
+      console.log("Email nhi ja rha", emailResponse.response)
       console.log(error)
       return res.status(400).json({ success: false, error: error.message })
     }
