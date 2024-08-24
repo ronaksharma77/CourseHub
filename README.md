@@ -126,5 +126,5 @@ Razorpay is integrated to handle secure payment transactions. Ensure you have yo
 
 For any inquiries or feedback, please reach out us at:
 
-- **Email:** [CourseHub](mailto:ronaksharma.rk77@gmail.com)
+- **Email:** [CourseHub](https://mailto:ronaksharma.rk77@gmail.com)
 - **GitHub:** [ronakshama77](https://github.com/ronaksharma77)
