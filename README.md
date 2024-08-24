@@ -124,8 +124,7 @@ Razorpay is integrated to handle secure payment transactions. Ensure you have yo
 
 ## Contact
 
-For any inquiries or feedback, please reach out to:
+For any inquiries or feedback, please reach out us at:
 
-- **Name:** Ronak Sharma
-- **Email:** ronaksharma.rk77@gmail.com
+- **Email:** [CourseHub](ronaksharma.rk77@gmail.com)
 - **GitHub:** [ronakshama77](https://github.com/ronaksharma77)
